@@ -1,28 +1,27 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+## Cypress, Do Zero a Nuvem
 
-👋 Seja bem-vindo(a)!
+Curso ministrado por Walmyr Filho da Talking About Testing, na Udemy. Projeto criado seguindo as aulas, por Vinicius Ferraz.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré-Requisitos
 
-## O que você vai aprender?
+É necessário possuir git, Node.js and npm instalado para clonar e rodar esse projeto.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+## Instalação 
 
-## Vamos começar?
+Rode no terminal "npm install" para instalar as dependencias.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Testes
 
-___
+Nesse projeto voce pode rodar os testes em um desktop ou versão mobile
 
-Este é um curso da **Escola Talking About Testing**.
+## Desktop
+
+Rode "npm test" para rodar os testes em versão desktop
+
+Ou rode "npm run cy:open" para abrir a Cypress APP
+
+## Mobile
+
+Rode "npm run test:mobile" para rodar os testes em versão mobile
+
+Ou rode "npm run cy:ope:mobile" para abrir a Cypress APP
